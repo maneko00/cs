@@ -73,7 +73,7 @@ namespace WinForm
             {
                 using (var sw = new
                     System.IO.StreamWriter(
-                    "save.csv",
+                    @"C:\Users\satoshi\Desktop\test.csv",
                     true, 
                     Encoding.GetEncoding("shift_jis")))
                 {
