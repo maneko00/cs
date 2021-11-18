@@ -18,31 +18,10 @@ namespace WinForm
 
             StatusLabel.Text = "必要事項を入力して保存してください";
 
-            EnableComboBox.Items.Add("有効"); 
-            EnableComboBox.Items.Add("無効");
-            EnableComboBox.SelectedIndex = 0;
-            EnableComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
-
             MailCheckBox.Checked = false;
             FreeRadioButton.Checked = true;
 
             SetMailAddressTextBox();
-            PlanChange();
-        }
-
-        private void MailCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
-            SetMailAddressTextBox();
-        }
-
-        private void SetMailAddressTextBox()
-        {
-            MailAddressTextBox.Enabled = MailCheckBox.Checked;
-            MailAddressLabel.Enabled = MailCheckBox.Checked;
-        }
-
-        private void BusinessRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
             PlanChange();
         }
 
