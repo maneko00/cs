@@ -1,7 +1,7 @@
 画面間の値の受け渡しはコンストラクタでおこなう
 渡す方
 ```
-var f = new AForm(100)
+var f = new AForm(string)
 f.ShowDialog();
 ```
 
@@ -9,12 +9,12 @@ f.ShowDialog();
 ```
 public partial class AForm : Form
 {
-  private int value_
-  public AForm(int value)
+  private string a_string_
+  public AForm(string value)
   {
     InitializeComponent();
     
-    _value = value;
+    a_string_ = value;
   }
 }
 ```
