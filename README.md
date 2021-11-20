@@ -26,7 +26,9 @@ shortcut
 カテゴリ＋年月日＋〇〇
 
 ## カバレッジツール
+カバレッジとは、テストコードがどれくらい書けているか調べること
 - Fine code coverage
   表示＞その他のウィンドウ＞Fine code coverage
 
-- axo
+- AxoCover
+  ツール＞AxoCover
