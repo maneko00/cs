@@ -18,8 +18,15 @@ public partial class AForm : Form
   }
 }
 ```
+## ファイル整理
 project
 archive
 　format
 shortcut
 カテゴリ＋年月日＋〇〇
+
+## カバレッジツール
+- Fine code coverage
+  表示＞その他のウィンドウ＞Fine code coverage
+
+- axo
