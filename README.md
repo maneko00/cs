@@ -22,3 +22,4 @@ project
 archive
 　format
 shortcut
+カテゴリ＋年月日＋〇〇
