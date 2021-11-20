@@ -18,3 +18,7 @@ public partial class AForm : Form
   }
 }
 ```
+project
+archive
+　format
+shortcut
