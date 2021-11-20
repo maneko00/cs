@@ -27,8 +27,10 @@ shortcut
 
 ## カバレッジツール
 カバレッジとは、テストコードがどれくらい書けているか調べること
+// VB2019/n
 - Fine code coverage
   表示＞その他のウィンドウ＞Fine code coverage
 
+// VB2017/n
 - AxoCover
   ツール＞AxoCover
