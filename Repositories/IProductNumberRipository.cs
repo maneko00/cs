@@ -4,7 +4,7 @@ namespace DDD.Domain.Repositories
 {
     public interface IProductNumberRipository
     {
-        ProductNumberEntity GetProductNumber(string base_, string sub);
+        //ProductNumberEntity GetProductNumber(string base_, string sub);
         void Save(ProductNumberEntity product_number);
     }
 }
