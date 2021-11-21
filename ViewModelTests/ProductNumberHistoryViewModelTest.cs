@@ -15,8 +15,12 @@ namespace DDDTest.Tests
         public void 登録シナリオ()
         {
             var product_number_mock = new Mock<IProductNumberRipository>();
+            //product_number_mock.Setup(x => x.GetProductNumber()).Returens();
 
-            var viewModel = new ProductNumberHistoryViewModel();
+            var viewModelMock = new Mock<ProductNumberHistoryViewModel>(product_number_mock.Object);
+            //viewModelMock.Setup(x => x.GetProductNumber()).Returens();
+
+            var viewModel = viewModelMock.Object;
             viewModel.BaseProductNumberText.Is("");
             viewModel.SubProductNumberText.Is("");
 
@@ -33,6 +37,7 @@ namespace DDDTest.Tests
                     saveValue.SubProductNumber.Is("000-0002");
                 });
             viewModel.Save();
+            product_number_mock.VerifyAll();
 
 
 
