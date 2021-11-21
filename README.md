@@ -34,3 +34,9 @@ shortcut
 // VB2017/n
 - AxoCover
   ツール＞AxoCover
+  
+ ##　テストツール
+ 
+ chainingAssertion
+ 
+ moq
